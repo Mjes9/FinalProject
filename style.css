@@ -1,3 +1,9 @@
+.indie-flower-regular {
+  font-family: "Indie Flower", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
 /* ============================================
    COLLECTION APP — STARTER STYLESHEET
    ============================================
@@ -13,7 +19,7 @@
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Indie Flower", cursive;
     background-color: #1a1a2e;
     color: #e0e0e0;
     min-height: 100vh;
@@ -25,13 +31,13 @@ header {
     text-align: center;
     padding: 30px 20px;
     margin-bottom: 20px;
-    background-color: #16213e;
+    background-color: #261d55;
     border-radius: 12px;
 }
 
 header h1 {
     font-size: 2.2rem;
-    color: #e94560;
+    color: #9dcbff;
     margin-bottom: 5px;
 }
 
@@ -42,7 +48,7 @@ header p {
 
 /* ---------- SECTIONS ---------- */
 section {
-    background-color: #16213e;
+    background-color: #261d55;
     border-radius: 12px;
     padding: 20px;
     margin-bottom: 20px;
@@ -53,9 +59,9 @@ section {
 
 section h2 {
     font-size: 1.3rem;
-    color: #e94560;
+    color: #9dcbff;
     margin-bottom: 15px;
-    border-bottom: 2px solid #0f3460;
+    border-bottom: 2px solid #0f4a60;
     padding-bottom: 8px;
 }
 
@@ -67,7 +73,7 @@ section h2 {
 }
 
 #stats-display p {
-    background-color: #0f3460;
+    background-color: #0f4a60;
     padding: 10px 18px;
     border-radius: 8px;
     font-size: 1rem;
@@ -97,13 +103,14 @@ section h2 {
 
 #form-container input:focus {
     outline: none;
-    border-color: #e94560;
+    border-color: #9dcbff;
 }
 
 #add-btn {
+    font-family: "Indie Flower", cursive;
     grid-column: 1 / -1;
     padding: 10px;
-    background-color: #e94560;
+    background-color: #9dcbff;
     color: white;
     border: none;
     border-radius: 8px;
@@ -115,7 +122,7 @@ section h2 {
 }
 
 #add-btn:hover {
-    background-color: #c73652;
+    background-color: #7bb0e8;
 }
 
 /* ---------- SEARCH ---------- */
@@ -133,16 +140,16 @@ section h2 {
 #search-input {
     flex: 1;
     padding: 8px 12px;
-    border: 2px solid #0f3460;
+    border: 2px solid #0f4a60;
     border-radius: 6px;
-    background-color: #1a1a2e;
+    background-color: #e0e0e0;
     color: #e0e0e0;
     font-size: 0.95rem;
 }
 
 #search-input:focus {
     outline: none;
-    border-color: #e94560;
+    border-color: #9dcbff;
 }
 
 /* ---------- COLLECTION DISPLAY ---------- */
@@ -158,10 +165,10 @@ section h2 {
    Example:  card.classList.add('item-card');
 */
 .item-card {
-    background-color: #0f3460;
+    background-color: #0f4a60;
     border-radius: 10px;
     padding: 16px;
-    border-left: 4px solid #e94560;
+    border-left: 4px solid #9dcbff;
     transition: transform 0.15s;
 }
 
@@ -189,7 +196,7 @@ section h2 {
 }
 
 .highlight {
-    color: #e94560;
+    color: #9dcbff;
     font-weight: bold;
 }
 
