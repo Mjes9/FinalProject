@@ -15,5 +15,27 @@ display.innerHTML += `
 `;
 });
 }
+
+const btn = document.getElementById('add-btn');
+btn.addEventListener('click', function() {
+
+nameInput = document.getElementById('input-name').value;
+franchiseInput = document.getElementById('input-franchise').value;
+ratingInput = parseInt(document.getElementById('input-rating'));
+notesInput = document.getElementById('input-notes').value;
+imgInput = document.getElementById('img-input');
+
+const newCharacter = {
+name: nameInput,
+franchise: franchiseInput,
+rating: ratingInput,
+notes: notesInput,
+img: imgInput
+};
+
+collection.push(newCharacter);
+renderCollection(collection);
+
+});
 // Call it on page load:
 renderCollection(collection);
